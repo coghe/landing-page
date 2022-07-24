@@ -40,12 +40,12 @@ a {
     background-color: #1f2937;
 }
 
-.hero-one {
+/* .hero-one {
     margin-top: 100px;
     margin-right: auto;
     padding: 20px 50px;
-    font-weight: 700;
-}
+
+} */
 
 #first-text {
     color: #f9faf8;
@@ -71,3 +71,84 @@ a {
     padding: 8px 12px;
     color: #e5e7eb;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.hero-one {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;    
+    font-weight: 700;
+}
+
+.hero-two {
+    background-color: #acacac;
+    color: #f9faf8;
+    width: 400px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 80px 100px;
+}
+
+/* second section */
+
+.section-two > p {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.first-info, .second-info, .third-info, .forth-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+/* third section */
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.section-three--text > p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.section-three--text {
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* forth section */
+
